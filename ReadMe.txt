@@ -4,7 +4,7 @@ Inside the "Form" folder you will find:
 
 Inside the "Tax_Super_Calculation" folder you will find:
  - A Javascript file run through cmd using a javascript framework 
-   (e.g "node taxSuper.js") Input either gross salary amount or "test" 
+   (e.g "node taxSuper.js") It will ask for either gross salary amount or "test" 
    for tests
 
 Please Note:
