@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!-- <div class="vl"></div> -->
+        <div class="borderForm">
+            <h2>NEW STAFF ONBOARDING FORM</h2>
+
+            <hr class="solid">
+            
+            <form>
+                <br>
+                <input type="text" class="textboxleft" id="Surname" placeholder="Surname" size="60">
+                <input type="text" class="textboxright" id="Tax-File-Number" placeholder="Tax File Number" size="60">
+                <br><br>
+                <input type="text" class="textboxleft" id="First-Given-Name" placeholder="First Given Name" size="60">
+                <label class="textboxright">
+                    <input type="checkbox">Are you an Australian resident?
+                  </label>
+                <br><br>
+                <input type="text" class="textboxleft" id="Other-Given-Names" placeholder="Other Given Names" size="60">
+                <label class="textboxright">
+                    <input type="checkbox">Do you wish to claim the tax-free threshhold?
+                </label>
+                <br><br>
+                <input type="text" class="textboxleft" id="Date-Of-Birth" placeholder="Date Of Birth" size="20">
+                <label class="textboxright2">
+                    <input type="checkbox">Do you wish to use the Super Fund Allocated by the Company?
+                </label>
+                <br><br>
+                <label class="textboxright3">
+                    <input type="checkbox">Do you have a student loan?
+                </label>
+                <br>
+                <hr class="leftSide">
+                <br>
+                <p class="titletext">Australian Address Details</p>
+                <input type="text" class="textboxleft" id="Address-Line-1" placeholder="Address Line 1" size="60">
+                <br><br>
+                <input type="text" class="textboxleft" id="Address-Line-2" placeholder="Address Line 2" size="60">
+                <br><br>
+                <select class="textboxleft" id="dropdown">
+                    <option value="QLD">QLD</option>
+                    <option value="NSW">NSW</option>
+                    <option value="VIC">VIC</option>
+                    <option value="SA">SA</option>
+                    <option value="NT">NT</option>
+                    <option value="WA">WA</option>
+                    <option value="TAS">TAS</option>
+                  </select>
+                <br>
+                <input type="text" class="textboxleft" id="Postcode" placeholder="Postcode" size="20"> 
+                <input type="text" class="textboxright2" id="Digital-Signature" size="30" style="height:48px"> 
+                <p style="margin-left:37px; margin-top:-72px">Digital Signature</p>
+            </form> 
+    
+            <style>
+                h2 {
+                    text-align: center;
+                    font-size: 40px;
+                }
+
+                .borderForm {
+                    border-style: double;
+                    position: absolute;
+                    background-color: rgb(235, 235, 235);
+                    width: 1100px;
+                }
+                
+                .titletext {
+                    margin-left: -360px;
+                    width: 100%;
+                }
+
+                .textboxleft {
+                    margin-left: -485px;
+                    text-align: center;
+                }
+
+                .textboxright {
+                    margin-left: 80px;
+                    text-align: center;
+                }
+
+                .textboxright2 {
+                    margin-left: 347px;
+                }
+
+                .textboxright3 {
+                    margin-left: 37px;
+                }
+
+                hr.solid {
+                    border-top: 3px solid rgb(42, 42, 43);
+                    width: 90%;
+                }
+
+                hr.leftSide {
+                    border-top: 3px solid rgb(42, 42, 43);
+                    margin-left: -485px;
+                    width: 80%;
+                }
+
+                form, .vl {
+                    border-left: 3px solid rgb(42, 42, 43);
+                    height: 470px;
+                    margin-left: 50%;
+                    z-index: 10;
+                }
+
+            </style>
+        </div>
+    </body>
+</html>
